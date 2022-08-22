@@ -1,4 +1,5 @@
 const init = () => {
+    // Add Event Listeners to Capture Form Data and Override the Form's Behavior
     const inputForm = document.querySelector('form');
 
     inputForm.addEventListener('submit', (event) => {
